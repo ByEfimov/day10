@@ -1,0 +1,255 @@
+@media (max-width: 1440px) {
+  .conatiner {
+    padding: 0 20px;
+  }
+  .main__body-bg {
+    top: -96px;
+    left: -87px;
+  }
+  .main__body-alepses {
+    right: -36px;
+  }
+  .destinations__body__images {
+    right: -490px;
+  }
+}
+@media (max-width: 1280px) {
+  .destinations__body__use {
+    padding-left: 20px;
+  }
+  .destinations__body__images {
+    right: -617px;
+  }
+  .main__body-bg {
+    top: -122px;
+  }
+  .main__body-alepses {
+    right: -320px;
+  }
+}
+@media (max-width: 1024px) {
+  .main__body-bg {
+    display: none;
+  }
+  .main__body-alepses {
+    z-index: 0;
+    right: 0px;
+    top: 44px;
+    pointer-events: none;
+  }
+  .main__header__links {
+    display: flex;
+    gap: 30px;
+  }
+  .destinations__body__images {
+    right: -861px;
+  }
+  .comment .conatiner {
+    flex-direction: column;
+    align-items: center;
+  }
+  .comment__use-title {
+    text-align: center;
+  }
+  .comment__use__tag {
+    justify-content: center;
+  }
+  .comment__use {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .comment__use-desc {
+    text-align: center;
+  }
+  .start__body {
+    padding: 60px 0;
+  }
+  .start__body .ovals {
+    z-index: 0;
+  }
+  .subscribe__body__input {
+    display: flex;
+  }
+  .subscribe__body__input-input {
+    margin-right: 64.2px;
+  }
+  .footer__links {
+    gap: 30px;
+  }
+  .main__body__use {
+    align-items: center;
+  }
+  .main__body__use-title {
+    text-align: center;
+  }
+  .main__body__use-desc {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .destinations__body {
+    justify-content: center;
+  }
+  .main__header__links {
+    display: none;
+  }
+  .footer__links {
+    display: none;
+  }
+  .destinations__body__use {
+    padding-right: 20px;
+  }
+  .comment {
+    margin-top: 120px;
+  }
+  .destinations {
+    padding-top: 500px;
+  }
+  .destinations__body__images {
+    left: 47%;
+    transform: translate(-50%);
+  }
+  .destinations__body__images-subImage {
+    flex-shrink: 0;
+  }
+  .destinations__body__images-mainImage {
+    flex-shrink: 0;
+  }
+  .destinations__body__use {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .destinations__body__use-tag {
+    text-align: center;
+  }
+  .destinations__body__use-title {
+    text-align: center;
+  }
+  .destinations__body__use-desc {
+    text-align: center;
+  }
+  .start__body-title {
+    font-size: 38px;
+  }
+  .start__body-desc {
+    font-size: 20px;
+  }
+  .start .conatiner {
+    padding: 0;
+  }
+  .start__body-button {
+    margin-top: 40px;
+  }
+  .subscribe__body__input {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    width: 100%;
+  }
+  .subscribe__body__input-input {
+    text-align: center;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+  }
+}
+@media (max-width: 480px) {
+  .main__body__use-tag {
+    font-size: 15px;
+  }
+  .main__body__use-button {
+    font-size: 20px;
+  }
+  .main__header__use-sign {
+    display: none;
+  }
+  .main__body__use-title {
+    font-size: 35px;
+    margin-top: 10px;
+  }
+  .main__body__use-desc {
+    display: none;
+  }
+  .main {
+    height: 664px;
+    background-position: bottom;
+  }
+  .main__header {
+    padding-top: 20px;
+  }
+  .destinations__body__images {
+    gap: 20px;
+  }
+  .destinations__body__images-subImage {
+    transform: scale(0.75);
+  }
+  .destinations__body__images-mainImage {
+    transform: scale(0.75);
+  }
+  .destinations__body__use {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+  .destinations__body__use-tag {
+    font-size: 20px;
+  }
+  .destinations__body__use-title {
+    font-size: 40px;
+  }
+  .destinations__body__use-desc {
+    font-size: 20px;
+  }
+  .comment__use-title {
+    font-size: 25px;
+  }
+  .comment .conatiner {
+    gap: 30px;
+  }
+  .comment__use__tag {
+    gap: 20px;
+  }
+  .comment__use__tag-info-desc {
+    font-size: 18px;
+  }
+  .comment__use-desc {
+    font-size: 20px;
+    margin-top: 35px;
+  }
+  .start__body-title {
+    font-size: 25px;
+  }
+  .start__body-desc {
+    font-size: 15px;
+  }
+  .subscribe__body-title {
+    font-size: 25px;
+  }
+  .subscribe__body__input-button {
+    padding: 25px 55px;
+    font-size: 20px;
+  }
+  .subscribe__body__input {
+    width: 100%;
+    border-radius: 17px;
+  }
+  .subscribe .conatiner {
+    padding: 0;
+  }
+  .subscribe__body {
+    gap: 30px;
+  }
+  .subscribe__body__input-input {
+    font-size: 20px;
+  }
+  .start {
+    margin-top: 130px;
+  }
+  .start__body {
+    border-radius: 17px;
+  }
+  .footer__use-sign {
+    display: none;
+  }
+}/*# sourceMappingURL=adaptive.css.map */
